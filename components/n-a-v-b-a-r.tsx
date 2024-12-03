@@ -168,7 +168,7 @@ const NAVBAR: NextPage<NAVBARType> = ({ className = "" }) => {
     <AuthKitProvider config={{
       rpcUrl: "https://mainnet.optimism.io",
       domain: "example.com",
-      siweUri: "https://example.com/login"  // removed comma
+      siweUri: "https://activity.community"  // removed comma
     }}>
       {/* Top Navbar */}
       <header
